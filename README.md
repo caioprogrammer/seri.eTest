@@ -1,79 +1,51 @@
 
+<img src="https://seriedesign.com.br/wp/wp-content/uploads/2019/09/logo_seriedesign.png" width='200px' />
 
-# Desfio Maeztra Concluido 
+# TESTE DE PROCESSO SELETIVO DA SERI.E DESIGN
 
-Link: https://caioprogrammer.github.io/desafio-maeztra-dev/
-Link do repositório: https://github.com/caioprogrammer/desafio-maeztra-dev
+## PARTE I - Teste de HTML e CSS
 
-Implementei uma função SCSS para converter PX to REM 
-No JS tentei implementar pela primeira vez um Cookie de 24hrs para o Modal do Newsletter.
-Espero que gostem do meu desempenho e acho que fui bem, adoraria ver um feedback em breve.
+O objetivo deste teste fazer uma página em HTML e CSS, para o layout dado pelo .psd disponível na pasta .psd, simulando uma loja chamada 'PET Store'.
 
-# Desafio Maeztra
-Olá candidato,
-Este teste se divide em duas etapas, a primeira é um teste lógico onde iremos analisar a sua forma de pensar e como você lida com problemas abstratos. Os códigos dessa etapa devem ser feitos em Javascript, e não se esqueça de documentar todo o processo de cada resposta.
+**Observações:**
+* Os produtos podem ser trazidos em html estático ou sendo puxado por alguma API;
+* O código deve ser responsivo, com o tamanho máximo de container de 1170px, podendo ter apenas quebras em 1024px, 768px e 520px;
+* No layout mobile você pode organizar os itens da forma que achar adequado;
+* Não é necessário fazer o carrossel funcionar.
+* Deve-se usar a criatividade e o senso estético para codificar o site;
+* Pode-se usar JavaScript, JQuery, Vue etc., se julgar necessário;
+* É permitido usar qualquer editor de código e consultar a internet;
+* Suporte de Browsers: IE9+, Chrome, Safari, Firefox;
+* Importe as fontes necessárias do Google Fonts;
+* É preferível que não seja usado nenhum frameworks CSS, como Bootstrap, por exemplo.
 
-Para iniciar o teste você pode clonar o repositório, e no prazo de dois dias enviar os arquivos em formato .rar/.zip (pode hospedar na nuvem e enviar o link, enviar por anexo etc) para o email queroser@maeztra.com com o assunto **Processo Seletivo Maeztra**, assim como o link para o github pages (mais informações no tópico layout).
+**Itens avaliados:**
+* organização do código e pastas, lógica e qualidade de código;
+* fidelidade ao layout proposto;
+* quebras no código responsivo;
+* capricho e cuidado com os elementos (hovers, cursores etc.);
 
-## Teste lógico
-Dentro do repositório existem cinco arquivos já nomeados para você realizar os seus algoritmos.
+Sinta-se livre para criar e estruturar o projeto como acha melhor.
 
-***1 - Crie uma função que receba um valor INTEIRO positivo, e verifique se os DÍGITOS estão em ordenação sequencial CRESCENTE ou DECRESCENTE. Pode considerar dígitos iguais como sequenciais (Variação de um dígito para o outro deve ser 1 ou menor)***
+## PARTE II - Teste de Javascript
 
-> Exemplo:<br/>
-> Input 12345678 -> Está ordenado <br/>
-> Input 1223455678 -> Está ordenado <br/>
-> Input 876543210 -> Está ordenado <br/>
-> Input 152456457 -> Não está ordenado <br/>
-> Input 12356789 -> Não está ordenado <br/>
-> Input 13579 -> Não está ordenado <br/>
-> Input 9765421 -> Não está ordenado <br/>
-> Input 123454321 -> Não está ordenado <br/>
-> Input 12222222 -> Está ordenado <br/>
-> Input 2111111 -> Está ordenado <br/>
-> Input 1599 -> Não está ordenado
+* Essa parte consiste em 10 perguntas contidas em "parte2/index.html";
+* É permitido o uso de JQuery;
+* As respostas podem devem ser feitas no mesmo arquivo.
 
+Ao terminar as duas partes do teste, você pode nos enviar os arquivos zipados por e-mail ou via link do Wetransfer ou em algum repositório Git.
 
+**BOA SORTE!**
 
-***2 - Crie uma função que receba um array de inteiros como parâmetro e verifique se neste array existem números duplicados, caso exista, retorne um novo array com os valores que se repetem.***
-
-> Exemplo:<br/>
-> Input `[4,5,44,98,4,5,6,7]` &rarr; Output `[4,5]`
-
-***3 - Crie uma função que recebe uma string com qualquer sequência dos seguintes caracteres*** `'[', '{', '(', ')', '}', ']'` ***e retorne se a sequência é uma sequência válida ou não. Uma sequência é válida se as chaves, parênteses e colchetes abrem e fecham corretamente***
-> Exemplo:<br/>
-> `{ [ ( ) ( ) { } [ ] ] { } }` é uma sequência válida<br/>
-> `{ [ ( ( ) ] }` não é uma sequência válida (Há um parêntese posicionado incorretamente)<br/>
-> `{ } [ ] ( )` é uma sequência válida<br/>
-> `( ( ) { } [ [ ] )` não é uma sequência válida (Há uma chave posicionado incorretamente)
-> `[ { } ( [ ) ] ]` não é uma sequência válida (O número de caracteres está correto, mas o posicionamento de uma chave/parêntese está incorreto)
-
-Dica: Os espaços nos exemplos são apenas para favorecer a leitura.<br/>
-Espaços não farão parte das strings de teste
-
-***4 - Considere um conjunto de pessoas aposentadas, onde cada pessoa começou a trabalhar em ano X e aposentou em ano Y. Crie uma função que receba uma matriz na seguinte estrutura*** `[[x1,y1],[x2,y2],...[xn,yn]]` ***e calcule em qual/quais ano/anos houve mais pessoas trabalhando.***
-
-*Considere:*
-- Os valores de X como o ano que os indívíduos começaram a trabalhar (x>0, x<y );
-- Os valores de Y como o ano que os indívíduos se aposentaram (y>0);
-- O ano de início deve ser considerado como ano trabalhado;
-- O ano de aposentadoria deve ser considerado como ano trabalhado.
-
-> Exemplo:<br/>
-> Input `[[1960,2005],[1945,2008],[1938,1999],...]`
-
-***5 - Um grupo de amigos será colocado lado a lado para tirar uma foto. De quantos modos distintos os amigos podem se organizar para tirar a foto? Desenvolva uma função que receba um número de pessoas (valor inteiro) e retorne quantas possibilidades de organização existem para que o fotografo saiba o número de modos distintos que esse grupo e outros grupos possam se organizar.***
-
-## Layout
-Essa é a segunda etapa do teste onde iremos analisar o ~~seu perfeccionismo~~ perfect pixel e de como você constrói os seus layouts.
-
-Requisitos:
-- O layout que você vai utilizar é este: [Layout Figma](https://www.figma.com/file/3RqPfS5PW9whbQNCTTaoqA/%5B2020-09%5D-MZ---Layout-Teste-de-vagas-para-time-de-Devs). **Atenção:** Para poder visualizar corretamente o figma, faça login na ferramenta. Caso acesse o link sem logar, não poderá ver espaçamento, cores etc;
-- Você pode utilizar qualquer framework ou library que você preferir;
-- A sua página deve ser hospedada no [Github Pages](https://pages.github.com/) e o link deve ser enviado no e-mail;
-- Estruture os seus arquivos em uma pasta chamada **layout** e se possível crie um *README*.
-
-## Dúvidas
-Caso você tenha alguma dúvida sobre os exercícios ou o layout, você pode nos mandar um email e nós responderemos por lá.
-
-Boa sorte!
+```
+   ______     ________    ________      __        ________
+  /  __  \   |   _____|  |   ___  \    |  |      |   _____|      
+ /  /  \__\  |  |        |  |   \  \   |  |      |  | 
+ \  \____    |  |___     |  |___/  /   |  |      |  |___ 
+  \___   \   |   ___|    |   __   /    |  |      |   ___|
+ __    \  \  |  |        |  |  \  \    |  |      |  | 
+ \  \__/  /  |  |_____   |  |   \  \   |  |  __  |  |_____ 
+  \______/   |________|  |__|    \__\  |__| |__| |________|
+ 
+ 
+```

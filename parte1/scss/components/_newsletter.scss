@@ -1,0 +1,117 @@
+.newsletter {
+  background-color: #8158c5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  &__content {
+    .superior {
+      @media screen and (max-width: 950px) {
+        align-items: flex-start;   
+      }
+      @media screen and (max-width: 600px) {
+        flex-direction: column;
+        align-items: center;
+      }
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #ffa200;
+      span {
+        color: #ffffff;
+        font-size: 14px;
+        text-transform: uppercase;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 5px;
+        @media screen and (max-width: 950px) {
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+    .inferior {
+      padding-top: 50px;
+      padding-bottom: 30px;
+      text-align: center;
+      color: #ffffff;
+      h2 {
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+      }
+      h3 {
+        font-size: 14px;
+        font-weight: 300;
+      }
+      form {
+        @media screen and (max-width: 950px) {
+          flex-direction: column;   
+        }
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        gap: 20px;
+        margin-top: 50px;
+        input {
+          background-color: transparent;
+          border: 0;
+          border-bottom: 1px solid #fff;
+          padding: 10px;
+          color: #fff;
+          @media screen and (max-width: 950px) {
+            width: 100%;  
+          }
+          &::-webkit-input-placeholder {
+            color: #fff;
+            font-size: 12px;
+          }
+          &::-moz-placeholder {
+            color: #fff;
+            font-size: 12px;
+          }
+          &:-ms-input-placeholder {
+            color: #fff;
+            font-size: 12px;
+          }
+          &::-ms-input-placeholder {
+            color: #fff;
+            font-size: 12px;
+          }
+          &::placeholder {
+            color: #fff;
+            font-size: 12px;
+          }
+        }
+        button {
+          border: 0;
+          background-color: #ffa200;
+          color: #ffffff;
+          padding: 10px;
+          padding: 10px 15px;
+          font-weight: 700;
+          @media screen and (max-width: 950px) {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

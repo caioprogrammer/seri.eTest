@@ -1,0 +1,19 @@
+/* Insira seu CSS aqui */
+@import './components/initial';
+
+
+@import './components/header';
+@import './components/navbar';
+@import './components/hero';
+@import './components/categories';
+@import './components/showcase';
+@import './components/pets';
+@import './components/footer';
+@import './components/newsletter';
+
+.none-in-desktop {
+  display: none;
+  @media screen and (max-width: 950px) {
+    display: block; 
+  }
+}

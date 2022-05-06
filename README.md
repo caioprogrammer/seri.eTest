@@ -3,6 +3,10 @@
 
 # TESTE DE PROCESSO SELETIVO DA SERI.E DESIGN
 
+## Resultado do Teste 
+
+* Link do deploy: https://caioprogrammer.github.io/serie-deploy/
+
 ## PARTE I - Teste de HTML e CSS
 
 O objetivo deste teste fazer uma página em HTML e CSS, para o layout dado pelo .psd disponível na pasta .psd, simulando uma loja chamada 'PET Store'.

@@ -1,0 +1,80 @@
+.banner {
+  margin-bottom: toRem(20);
+  .swiper-slide {
+    position: relative;
+    img {
+      width: 100%;
+    }
+    .texts {
+      position: absolute;
+      top: 23%;
+      left: 14%;
+      z-index: 1;
+      display: -ms-grid;
+      display: grid;
+      gap: toRem(20);
+      @media screen and (max-width: 486px) {
+				top: 17%;
+				left: 13%;
+				gap: toRem(10);
+      }
+      @media screen and (max-width: 320px) {
+				top: 17%;
+				gap: toRem(7);
+      }
+      h1 {
+        font-size: toRem(40);
+        font-weight: 700;
+        color: white;
+        @media screen and (max-width: 768px) {
+					width: 58%;
+					line-height: toRem(45);
+        }
+        @media screen and (max-width: 375px) {
+					font-size: toRem(35);
+        }
+        @media screen and (max-width: 320px) {
+					font-size: toRem(30);
+        }
+      }
+      p {
+        width: 70%;
+        font-size: toRem(20);
+        color: white;
+        @media screen and (max-width: 375px) {
+          font-size: toRem(17);
+        }
+        @media screen and (max-width: 320px) {
+					font-size: toRem(15);
+        }
+      }
+      .search {
+        width: 25%;
+        font-size: toRem(14);
+        font-weight: 700;
+      }
+    }
+  }
+  .swiper-pagination {
+    @media screen and (max-width: 768px) {
+			margin-bottom: toRem(10);
+    }
+  }
+  .swiper-pagination-bullet {
+    opacity: 1;
+    background-color: transparent;
+    border: toRem(1) solid $destaque5;
+    @media screen and (max-width: 768px) {
+			padding: toRem(5);
+    }
+  }
+  .swiper-pagination-bullet-active {
+    background-color: $destaque5;
+  }
+  .swiper-button-next {
+    color: black;
+  }
+  .swiper-button-prev {
+    color: black;
+  }
+}

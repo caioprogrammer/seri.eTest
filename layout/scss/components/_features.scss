@@ -1,0 +1,88 @@
+.features-maeztra {
+	.feature-container {
+		display: flex;
+		align-items: center;
+		gap: toRem(20);
+		justify-content: center;
+		@media screen and (max-width: 1180px) {
+			display: none;
+		}
+		.feature {
+			display: flex;
+			align-items: center;
+			gap: toRem(15);
+			background-color: $whiteDark;
+			padding: toRem(8);
+			border-radius: toRem(7);
+			h3 {
+				font-size: toRem(13);
+			}
+			p {
+				font-size: toRem(11);
+			}
+		}
+	}
+	margin-bottom: toRem(50);
+	h2 {
+		text-align: center;
+		font-size: toRem(16);
+		font-weight: 700;
+		margin-bottom: toRem(20);
+	}
+	.swiper {
+		display: none;
+		@media screen and (max-width: 1180px) {
+			display: block;
+			width: 85%;
+		}
+		@media screen and (max-width: 768px) {
+			width: 100%;
+		}
+		.swiper-wrapper {
+			.feature {
+				@media screen and (max-width: 1180px) {
+					display: flex;
+					align-items: center;
+					gap: toRem(15);
+					background-color: $whiteDark;
+					padding: toRem(8);
+					border-radius: toRem(7);
+					width: 90%;
+					margin: auto;
+					h3 {
+						font-size: toRem(13);
+					}
+					p {
+						font-size: toRem(11);
+					}
+				}
+			}
+		}
+
+		.swiper-button-next {
+			@media screen and (max-width: 1180px) {
+				color: black;
+				&::after {
+					font-size: toRem(20);
+					font-size: toRem(20);
+				}
+			}
+			@media screen and (max-width: 768px) {
+				display: none;
+			}
+		}
+		.swiper-button-prev {
+			@media screen and (max-width: 1180px) {
+				color: black;
+				left: 0;
+				&::after {
+					font-size: toRem(20);
+					font-size: toRem(20);
+				}
+			}
+			@media screen and (max-width: 768px) {
+				display: none;
+			}
+		}
+	}
+}
